@@ -21,6 +21,7 @@ public class WebViewActivity extends AppCompatActivity {
         String url = intent.getStringExtra("url");
 
         webView.loadUrl(url);
+        finish();
     }
     //no funciona, la intencion es que cuando se presione en retroceder se vaya a main actyvity.
    /* @Override
